@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch / experiment outputs
+*.pt
+*.pth
+*.ckpt
+runs/
+lightning_logs/
+checkpoints/
+
+# Datasets (downloaded by torchvision etc.)
+data/
+datasets/
+
+# Editors / OS
+.idea/
+Thumbs.db
+.DS_Store

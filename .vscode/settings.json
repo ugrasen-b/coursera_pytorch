@@ -1,0 +1,6 @@
+{
+    "python.condaPath": "C:\\Users\\ugras\\anaconda3\\Scripts\\conda.exe",
+    "python.defaultInterpreterPath": "C:\\Users\\ugras\\anaconda3\\envs\\pytorch-env\\python.exe",
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda"
+}

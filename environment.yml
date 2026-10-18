@@ -1,0 +1,34 @@
+name: pytorch-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+    # PyTorch Core & Vision/Audio Libraries
+    - torch
+    - torchvision
+    - torchaudio
+    - torchmetrics
+    - torchinfo
+
+    # Data Science & Numerical Computing
+    - numpy
+    - pandas
+    - scipy
+    - scikit-learn
+
+    # Visualization & Experiment Tracking
+    - matplotlib
+    - seaborn
+    - tensorboard
+
+    # Utilities & Progress Tracking
+    - tqdm
+    - pillow
+    - requests
+
+    # Interactive Development & Jupyter Notebooks
+    - jupyter
+    - ipykernel
